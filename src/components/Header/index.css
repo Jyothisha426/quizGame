@@ -1,0 +1,25 @@
+.header-container{
+    width: 100%;
+    height: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.website-logo{
+    width: 43px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+}
+
+@media screen and (min-width:768px){
+    .website-logo{
+        width: Hug (77px)px;
+height: Hug (56px)px;
+gap: 8px;
+opacity: 0px;
+
+    }
+}

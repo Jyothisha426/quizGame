@@ -1,0 +1,95 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  height: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.login-quiz-logo {
+  height: 60px;
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  border-radius: 9px;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  color: #263868;
+  padding: 5px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #7e858e;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
+.show-password-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  top: 4px;
+}
+
+.show-password {
+  font-size: 14px;
+  color: #000000;
+}
+
+.login-btn {
+  width: stretch;
+  height: 40px;
+  background-color: #0ea5e9;
+  border-radius: 9px;
+  border: 0px solid transparent;
+  outline: none;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.err-msg {
+  color: #ef4444;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
