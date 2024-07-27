@@ -1,25 +1,74 @@
-.header-container{
-    width: 100%;
-    height: 10vh;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.header-container {
+  width: 100%;
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  position: fixed; /* Make the header fixed to the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for separation */
 }
 
-.website-logo{
-    width: 43px;
-height: 32px;
-gap: 0px;
-opacity: 0px;
+.website-logo {
+  width: 43px;
+  height: 32px;
+  gap: 0px;
+  opacity: 1; /* Ensure visibility */
 }
 
-@media screen and (min-width:768px){
-    .website-logo{
-        width: Hug (77px)px;
-height: Hug (56px)px;
-gap: 8px;
-opacity: 0px;
+.logout-btn-large {
+  background-color: transparent;
+  border: 1px solid;
+  width: auto;
+  height: auto;
+  padding: 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 2px solid #afafaf;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #afafaf;
+  display: none;
+  cursor: pointer;
+}
 
-    }
+.logout-btn-small {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  opacity: 1; /* Ensure visibility */
+  display: inline;
+  background-color: transparent;
+  border: 0px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 60px;
+    height: 50px;
+    gap: 8px;
+  }
+  .logout-btn-large {
+    display: inline;
+  }
+  .logout-btn-small {
+    display: none;
+  }
+  .website-logo {
+    width: auto;
+    height: auto;
+    gap: 8px;
+  }
 }
